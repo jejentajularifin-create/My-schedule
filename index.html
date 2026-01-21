@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planner Belajar 6 Hari</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1> JADWAL BELAJAR </h1>
+            <p>Mastering Web Dev & Design dalam 6 Hari</p>
+            <p>By Jetafind</p>
+        </header>
+        
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari & Waktu</th>
+                        <th>Materi Pembelajaran</th>
+                        <th>Target Output</th>
+                        <th style="text-align: center;">Selesai</th>
+                    </tr>
+                </thead>
+                <tbody id="scheduleBody">
+                    </tbody>
+            </table>
+        </div>
+
+        <div class="footer-info">
+            <p>💡 <em>Tips: Fokus 1-2 jam tanpa gangguan HP untuk hasil maksimal.</em></p>
+            <button class="reset-btn" onclick="resetProgress()">Reset Semua Progress</button>
+        </div>
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>

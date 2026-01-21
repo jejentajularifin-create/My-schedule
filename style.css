@@ -1,0 +1,139 @@
+:root {
+    --primary: #00b894;
+    --secondary: #0984e3;
+    --bg: #f8f9fa;
+    --text: #2d3436;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    color: var(--primary);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f1f2f6;
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #dfe6e9;
+}
+
+td {
+    padding: 20px 15px;
+    border-bottom: 1px solid #f1f2f6;
+    vertical-align: top;
+}
+
+.day-box {
+    min-width: 180px;
+}
+
+.day-label {
+    display: block;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.time-label {
+    font-size: 13px;
+    color: #636e72;
+}
+
+.section-title {
+    font-weight: 600;
+    color: var(--secondary);
+    margin-top: 10px;
+    display: block;
+}
+
+ul {
+    margin: 5px 0;
+    padding-left: 18px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.output-badge {
+    display: inline-block;
+    background: #e1f5fe;
+    color: #0288d1;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Status Selesai */
+.row-done {
+    background-color: #f4fdf9;
+    opacity: 0.7;
+}
+
+.row-done td {
+    text-decoration: line-through;
+}
+
+.row-done .checkbox-cell {
+    text-decoration: none !important;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer-info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reset-btn {
+    background: #fab1a0;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.reset-btn:hover {
+    background: #ff7675;
+    color: white;
+}
